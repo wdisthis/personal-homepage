@@ -2,3 +2,4 @@ wa https://web.whatsapp.com
 gcr https://classroom.google.com
 gdoc https://docs.google.com
 eler https://kuliah.itera.ac.id
+git https://github.com
