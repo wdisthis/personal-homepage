@@ -1,0 +1,54 @@
+SEARCH
+────────────────────────────
+
+Akademik
+- Google Classroom (GCR)
+- E-Learning ITERA
+- draw.io
+
+Komunikasi
+- WhatsApp
+
+Data Science & Programming Lab
+- Google Colab
+- GitHub
+
+Dataset
+- Kaggle
+
+Learning
+- Dicoding
+- Cisco Learning
+- Repository Belajar
+
+Productivity
+- LinkedIn
+
+Deployment
+- PythonAnywhere
+
+Google Workspace
+- Google Docs
+- Google Spreadsheet
+- Google Slides
+- Google Drive
+
+Web Buatan Saya
+- QRCode
+- MD2PDF
+
+Cybersecurity
+- CTFlearn
+- TryHackMe
+- picoCTF
+- OWASP
+
+AI
+- ChatGPT
+- Gemini
+- Perplexity
+- Consensus
+- HuggingFace
+
+Developer & Portfolio
+- GitHub

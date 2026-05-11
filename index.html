@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal homepage</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="grid-overlay"></div>
+
+    <main class="dashboard-container">
+        <div class="search-bar-wrapper">
+            <form action="https://www.google.com/search" method="GET" class="search-container">
+                <span class="prompt">fitra@terminal:~$ search --google</span>
+                <input type="text" name="q" placeholder="..." class="search-input" autofocus autocomplete="off">
+            </form>
+            <div class="system-status">
+                <span id="current-time" class="status-item">00:00:00</span>
+                <span id="current-date" class="status-item">---</span>
+            </div>
+        </div>
+
+        <section class="grid-container" id="grid-container">
+            <!-- Akademik -->
+            <div class="card card-wide">
+                <div class="card-tag">AKADEMIK.01</div>
+                <div class="card-header">
+                    <i data-lucide="graduation-cap"></i>
+                    <h2>Akademik</h2>
+                </div>
+                <ul class="link-list">
+                    <li><a href="https://classroom.google.com" target="_blank">> Google Classroom</a></li>
+                    <li><a href="https://elearning.itera.ac.id" target="_blank">> E-Learning ITERA</a></li>
+                    <li><a href="https://app.diagrams.net" target="_blank">> draw.io</a></li>
+                </ul>
+            </div>
+
+            <!-- AI -->
+            <div class="card card-tall">
+                <div class="card-tag">AI_CORE.v2</div>
+                <div class="card-header">
+                    <i data-lucide="cpu"></i>
+                    <h2>Artificial Intel</h2>
+                </div>
+                <ul class="link-list">
+                    <li><a href="https://chat.openai.com" target="_blank">> ChatGPT</a></li>
+                    <li><a href="https://gemini.google.com" target="_blank">> Gemini</a></li>
+                    <li><a href="https://www.perplexity.ai" target="_blank">> Perplexity</a></li>
+                    <li><a href="https://consensus.app" target="_blank">> Consensus</a></li>
+                    <li><a href="https://huggingface.co" target="_blank">> HuggingFace</a></li>
+                </ul>
+                <div class="card-image">
+                    <img src="assets/img.png" alt="AI Core Analysis">
+                </div>
+            </div>
+
+            <!-- Cybersecurity -->
+            <div class="card card-wide">
+                <div class="card-tag">SEC_LAB.init</div>
+                <div class="card-header">
+                    <i data-lucide="shield"></i>
+                    <h2>Cybersecurity</h2>
+                </div>
+                <div class="card-content-split">
+                    <ul class="link-list">
+                        <li><a href="https://ctflearn.com" target="_blank">> CTFlearn</a></li>
+                        <li><a href="https://tryhackme.com" target="_blank">> TryHackMe</a></li>
+                    </ul>
+                    <ul class="link-list">
+                        <li><a href="https://picoctf.org" target="_blank">> picoCTF</a></li>
+                        <li><a href="https://owasp.org" target="_blank">> OWASP</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Learning -->
+            <div class="card">
+                <div class="card-tag">LEARN.src</div>
+                <div class="card-header">
+                    <i data-lucide="book-open"></i>
+                    <h2>Learning</h2>
+                </div>
+                <ul class="link-list">
+                    <li><a href="https://www.dicoding.com" target="_blank">> Dicoding</a></li>
+                    <li><a href="https://learning.cisco.com" target="_blank">> Cisco Learning</a></li>
+                    <li><a href="https://github.com/wdisthis/Hacking" target="_blank">> Repository Belajar</a></li>
+                </ul>
+            </div>
+
+            <!-- My Web -->
+            <div class="card">
+                <div class="card-tag">PROJECTS.pub</div>
+                <div class="card-header">
+                    <i data-lucide="globe"></i>
+                    <h2>My Web</h2>
+                </div>
+                <ul class="link-list">
+                    <li><a href="https://wdisthis.github.io/qrcode/" target="_blank">> QRCode</a></li>
+                    <li><a href="https://wdisthis.github.io/MD2PDF/" target="_blank">> MD2PDF</a></li>
+                </ul>
+            </div>
+
+            <!-- Data Science -->
+            <div class="card">
+                <div class="card-tag">DS_LAB.04</div>
+                <div class="card-header">
+                    <i data-lucide="code"></i>
+                    <h2>DS & Programming</h2>
+                </div>
+                <ul class="link-list">
+                    <li><a href="https://colab.research.google.com" target="_blank">> Google Colab</a></li>
+                    <li><a href="https://github.com" target="_blank">> GitHub</a></li>
+                </ul>
+            </div>
+
+            <!-- Google Workspace -->
+            <div class="card card-wide">
+                <div class="card-tag">G_WORK.suite</div>
+                <div class="card-header">
+                    <i data-lucide="layout"></i>
+                    <h2>Google Workspace</h2>
+                </div>
+                <div class="card-content-split">
+                    <ul class="link-list">
+                        <li><a href="https://docs.google.com" target="_blank">> Google Docs</a></li>
+                        <li><a href="https://sheets.google.com" target="_blank">> Google Spreadsheet</a></li>
+                    </ul>
+                    <ul class="link-list">
+                        <li><a href="https://slides.google.com" target="_blank">> Google Slides</a></li>
+                        <li><a href="https://drive.google.com" target="_blank">> Google Drive</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Dataset -->
+            <div class="card">
+                <div class="card-tag">DATA.set</div>
+                <div class="card-header">
+                    <i data-lucide="database"></i>
+                    <h2>Dataset</h2>
+                </div>
+                <ul class="link-list">
+                    <li><a href="https://www.kaggle.com" target="_blank">> Kaggle</a></li>
+                </ul>
+            </div>
+
+            <!-- Deployment -->
+            <div class="card">
+                <div class="card-tag">DEPLOY.env</div>
+                <div class="card-header">
+                    <i data-lucide="server"></i>
+                    <h2>Deployment</h2>
+                </div>
+                <ul class="link-list">
+                    <li><a href="https://www.pythonanywhere.com" target="_blank">> PythonAnywhere</a></li>
+                </ul>
+            </div>
+
+            <!-- Productivity -->
+            <div class="card">
+                <div class="card-tag">SOCIAL.ext</div>
+                <div class="card-header">
+                    <i data-lucide="trending-up"></i>
+                    <h2>Productivity</h2>
+                </div>
+                <ul class="link-list">
+                    <li><a href="https://www.linkedin.com" target="_blank">> LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <!-- Komunikasi -->
+            <div class="card">
+                <div class="card-tag">COMM.link</div>
+                <div class="card-header">
+                    <i data-lucide="message-circle"></i>
+                    <h2>Komunikasi</h2>
+                </div>
+                <ul class="link-list">
+                    <li><a href="https://web.whatsapp.com" target="_blank">> WhatsApp</a></li>
+                </ul>
+            </div>
+
+            <!-- Developer -->
+            <div class="card">
+                <div class="card-tag">DEV.port</div>
+                <div class="card-header">
+                    <i data-lucide="user"></i>
+                    <h2>Developer</h2>
+                </div>
+                <ul class="link-list">
+                    <li><a href="https://github.com" target="_blank">> GitHub</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="script/script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
