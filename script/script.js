@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'wa': 'https://web.whatsapp.com',
         'gcr': 'https://classroom.google.com',
         'gdoc': 'https://docs.google.com',
-        'eler': 'https://elearning.itera.ac.id'
+        'eler': 'https://kuliah.itera.ac.id',
+        'git': 'https://github.com'
     };
 
     // Intercept Search Form
